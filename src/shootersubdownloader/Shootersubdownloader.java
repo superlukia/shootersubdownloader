@@ -39,7 +39,7 @@ public class Shootersubdownloader {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception {
-        File f = new File("F:\\downloads\\Game.of.Thrones.S06E06.Hybrid.720p.HDTV.x264-DON.mkv");
+        File f = new File(args[0]);
 
         down(f);
     }
